@@ -11,13 +11,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.bayu</groupId>
+	<groupId>org.bayu</groupId>
 	<artifactId>microservices-part-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>microservices-part-1</name>
 	<description>Demo project for Spring Boot</description>
+	<packaging>pom</packaging>
 
 	<modules>
+		<module>product-service</module>
 
 	</modules>
 
