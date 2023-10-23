@@ -1,13 +1,13 @@
 package com.bayu.microservicespart1;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import java.util.logging.Logger;
 
-@SpringBootApplication
 public class MicroservicesPart1Application {
 
+	private static final Logger logger = Logger.getLogger(MicroservicesPart1Application.class.getName());
+
 	public static void main(String[] args) {
-		SpringApplication.run(MicroservicesPart1Application.class, args);
+		logger.info("Hello World!");
 	}
 
 }
