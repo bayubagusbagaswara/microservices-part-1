@@ -1,4 +1,4 @@
-package org.bayu;
+package com.inventoryservice;
 
 
 import java.util.logging.Logger;
