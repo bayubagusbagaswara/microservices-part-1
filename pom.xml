@@ -22,7 +22,8 @@
 		<module>product-service</module>
 		<module>order-service</module>
 		<module>inventory-service</module>
-	</modules>
+        <module>api-gateway</module>
+    </modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
