@@ -13,8 +13,8 @@ public class DiscoveryServerApplication {
     private static final Logger log = Logger.getLogger(DiscoveryServerApplication.class.getName());
 
     public static void main(String[] args) {
-        log.info("Discovery Server is Running...");
         SpringApplication.run(DiscoveryServerApplication.class, args);
+        log.info("Discovery Server is Running...");
     }
 
 }

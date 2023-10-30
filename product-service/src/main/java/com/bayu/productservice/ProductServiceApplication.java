@@ -11,8 +11,8 @@ public class ProductServiceApplication {
 	private static final Logger log = Logger.getLogger(ProductServiceApplication.class.getName());
 
 	public static void main(String[] args) {
-		log.info("Product Service is Running...");
 		SpringApplication.run(ProductServiceApplication.class, args);
+		log.info("Product Service is Running...");
 	}
 
 }
