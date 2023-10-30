@@ -34,4 +34,8 @@ public class InventoryServiceApplication {
 //        };
 //    }
 
+    /***
+     * harusnya di inventory kita buat sample stock product
+     */
+
 }
