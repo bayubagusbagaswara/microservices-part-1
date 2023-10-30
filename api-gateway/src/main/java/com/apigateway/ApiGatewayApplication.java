@@ -1,5 +1,6 @@
-package com.bayu;
+package com.apigateway;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.logging.Logger;
@@ -10,7 +11,8 @@ public class ApiGatewayApplication {
     private static final Logger log = Logger.getLogger(ApiGatewayApplication.class.getName());
 
     public static void main(String[] args) {
-        log.info("API Gateway is running...");
+        log.info("API Gateway is Running...");
+        SpringApplication.run(ApiGatewayApplication.class, args);
     }
 
 }
