@@ -11,8 +11,8 @@ public class OrderServiceApplication {
 	private static final Logger log = Logger.getLogger(OrderServiceApplication.class.getName());
 
 	public static void main(String[] args) {
-		log.info("Order Service is Running...");
 		SpringApplication.run(OrderServiceApplication.class, args);
+		log.info("Order Service is Running...");
 	}
 
 }
