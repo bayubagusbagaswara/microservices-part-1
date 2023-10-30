@@ -58,6 +58,7 @@ public class OrderService {
 
         // Call Inventory Service, and place if product is in
         // stock
+        // URL ini untuk mengecek quantity di apakah masih tersedia atau tidak
         InventoryResponse[] inventoryResponsesArray = webClientBuilder.build().get()
                 .uri(apiInventoryURL,
                         uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
