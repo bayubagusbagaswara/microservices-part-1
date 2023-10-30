@@ -5,8 +5,6 @@ import lombok.*;
 
 import java.math.BigDecimal;
 
-@EqualsAndHashCode(callSuper = true)
-@Data
 @Builder
 public record OrderLineItemDTO(
         @JsonProperty(value = "id") String id,
