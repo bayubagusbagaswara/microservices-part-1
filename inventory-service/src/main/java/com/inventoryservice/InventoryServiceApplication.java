@@ -1,16 +1,13 @@
 package com.inventoryservice;
 
-import com.inventoryservice.entity.Inventory;
-import com.inventoryservice.repository.InventoryRepository;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-import java.util.List;
 import java.util.logging.Logger;
 
 @SpringBootApplication
+@EnableDiscoveryClient
 public class InventoryServiceApplication {
 
     private static final Logger log = Logger.getLogger(InventoryServiceApplication.class.getName());
