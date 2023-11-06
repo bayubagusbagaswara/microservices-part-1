@@ -12,3 +12,5 @@
 - Load Balancing
 - SSL Termination
 
+# Circuit Breaker
+
